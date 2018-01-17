@@ -1,6 +1,6 @@
 @charset "utf-8";
 body {
-	min-width: 1020px;
+	min-width: 100px;
 	word-wrap: break-word;
 	font-size: 14px;
 	line-height: 1.5;
@@ -13,21 +13,20 @@ a {
 	text-align: center;
 	text-decoration: none;
 }
-ul {
-	display: flex;
-	justify-content: flex-start;
-	align-content: stretch;
+ul{
+	padding: inherit;
 }
-li {
+li {	
 	list-style: none;
 	font-style: normal;
-	margin: 50px;
+	margin-left: 0;
+	margin-bottom: 50px;
+	display: flex;
+	flex-flow: column;
 }
 li a {
-	border: 5px solid #3B9510;
-	background-color: #3B9510;
-	text-decoration: none;
-	border-radius: 7px;
+	border: 5px solid #171717;
+	border-radius: 3px;
 	padding: 10px 20px;
 	font-size: 20px;
 }
@@ -53,6 +52,8 @@ div {
 	text-decoration-color: #646464
 }
 .word-list {
+	margin-top: 50px;
+	padding: 0px;
 }
 .header-content{
     display: -webkit-box !important;
