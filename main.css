@@ -1,6 +1,12 @@
 @charset "utf-8";
-html{
-	width: 980px;
+body {
+	min-width: 1020px;
+	word-wrap: break-word;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #24292e;
+	background-color: #fff;
+	margin: 0px;
 }
 a {
 	color: #161616;
@@ -25,13 +31,43 @@ li a {
 	padding: 10px 20px;
 	font-size: 20px;
 }
+div {
+	display: block;
+}
+.Header {
+	margin: 0;
+	z-index: 1;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	color: rgba(255,255,255,0.75);
+	background-color: #24292e;
+}
+.container {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	box-sizing: border-box;
+}
 .page-title {
-	border: 5px solid #FFFFFF;
-	padding: 10px;
-	margin: 10px;
-	border-radius: 5px; 
+	background-color: #191919;
+	text-decoration-color: #646464
 }
 .word-list {
-	display: block;
-	
+}
+.header-content{
+    display: -webkit-box !important;
+    display: flex !important;
+
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+
+    -webkit-box-pack: justify !important;
+    justify-content: space-between !important;
+
+    max-width: 1012px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.position-relative{
+	position: relative !important;
 }
