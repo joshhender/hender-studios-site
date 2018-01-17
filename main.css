@@ -1,0 +1,39 @@
+@charset "utf-8";
+html{
+	background-color: #81EB4F
+}
+a {
+	color: #161616;
+	text-align: center;
+	text-decoration: none;
+}
+ul {
+	display: flex;
+	justify-content: flex-start;
+	align-content: stretch;
+}
+li {
+	list-style: none;
+	font-style: normal;
+	margin: 50px;
+}
+li a {
+	border: 5px solid #3B9510;
+	background-color: #3B9510;
+	text-decoration: none
+	text-decoration-color: #E4E4E4;
+	border-radius: 7px;
+	padding: 10px 20px;
+	font-size: 20px;
+}
+.page-title {
+	border: 5px solid #89D963;
+	background-color: #89D963;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px; 
+}
+.word-list {
+	display: block;
+	
+}
